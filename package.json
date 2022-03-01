@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "server": "cd backend && php artisan serve",
+    "client": "cd frontend && npm run dev",
+    "install": "cd frontend && npm install && cd .. && cd backend && npm install && composer install"
+  }
+}
